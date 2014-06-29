@@ -23,7 +23,7 @@
 			if(!empty($_POST['nom']))
 				$nom=htmlspecialchars($_POST['nom'],ENT_QUOTES,'ISO-8859-1');
 			if(!empty($_POST['prenom']))
-				$nom=htmlspecialchars($_POST['prenom'],ENT_QUOTES,'ISO-8859-1');
+				$prenom=htmlspecialchars($_POST['prenom'],ENT_QUOTES,'ISO-8859-1');
 
 			// Maintenant on passe à la phase de test des valeurs entrées
 			// Prendre en compte les limites de la db et les validation des données (email par exemple)
