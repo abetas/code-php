@@ -1,5 +1,7 @@
 <form action="" method="POST">
 
+	<input type="hidden" name="inscription" id="inscription" value="yes" />
+
 	<!-- Ce script php permet, en cas d'erreur de saise, de conserver les valeurs correctes entrées par l'utilisateur -->
 	<?php
 		if(!empty($_POST['username']))
@@ -52,5 +54,7 @@
 	Mot de passe <input type="password" name="password1"  placeholder="Mot de passe" required>
 	
 	Confirmation du mot de passe <input type="password" name="password2" placeholder="Mot de passe" required>
+
+	<button type="submit">Ajouter</button>
 
 </form>
